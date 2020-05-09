@@ -1,0 +1,51 @@
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);
+
+body{
+  font-family: "Noto Sans JP";
+  background-color: #444;
+  color: #eee;
+  font-size: 14px;
+}
+
+header{
+  padding-top: 6rem;
+}
+header h1{
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+main, .container, .row{
+  margin-top: 0;
+  position: relative;
+}
+
+#timer{
+  font-size: 15rem;
+  margin-top: -4.5rem;
+  text-shadow: rgba(100,100,100,0.5) 0.2rem 0.2rem 0.15rem;
+}
+#stop{
+  padding:0.75rem 0;
+  margin-top: -4.5rem;
+  position: absolute;
+  bottom:1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  border-radius: 0.2rem;
+  box-shadow: rgba(100,100,100,0.3) 0.1rem 0.1rem 0.1rem;
+  font-size: 1.0rem;
+}
+
+
+.btn_start{
+  background-color: #fff;
+}
+.btn_stop{
+  background-color: #000;
+  color:#fff;
+}
+
+footer{}
